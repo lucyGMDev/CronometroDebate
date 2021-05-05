@@ -61,6 +61,7 @@ window.addEventListener('load',()=>{
         {
             clearInterval(timeDown);
             timeDown=undefined; 
+            startButton.innerText="Reanudar";
         }
     })
     

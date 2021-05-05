@@ -1,5 +1,10 @@
-#debate-timer{
+
+#debate-panel{
     width: 50%;
+    margin: 0px auto;
+}
+#debate-timer{
+    width: 100%;
     height: 200px;
     border: 4px solid black;
     margin: 0px auto;
@@ -9,4 +14,16 @@
 }
 .debate-timer-out-time{
     background-color: red;
+}
+
+#debate-panel button{
+    width:30%;
+    height:100px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#debate-panel button:first-of-type{
+    margin-left: 0px;
 }
